@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>O'Fig Panier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header id="header">
+        <p class="shop">
+          oFig <em class="subtitle">Figurines et statuettes</em>
+        </p>
+      </header>
+    </div>
+
+    <main id="main">
+      <div id="maintitle">
+        <h1>Votre panier <em class="brand">2 produits</em></h1>
+      </div>
+
+      <div class="content">
+        <h2 class="content__title">Préférences de livraison</h2>
+
+        <div class="content__form">
+          <div class="content__form-left">
+            <fieldset class="form__input-left" name="delivery">
+              <legend class="form__input-title">
+                Où souhaitez-vous être livré ?
+              </legend>
+
+              <div class="form__input__container">
+              <input
+                class="form__input-choice"
+                type="radio"
+                id="current_address"
+                name="delivery"
+                value="current_address"
+              />
+              <label for="current_address">Mon adresse courante</label>
+            </div>
+              <input
+                class="form__input-choice"
+                type="radio"
+                id="other_address"
+                name="delivery"
+                value="other_address"
+              />
+              <label for="other_address">Autre adresse</label>
+            </fieldset>
+
+            <fieldset class="form__input-left" name="delivery_option">
+              <legend class="form__input-title">Options</legend>
+
+              <input
+                class="form__input-choice"
+                type="checkbox"
+                id="sms_tracking"
+                name="sms_tracking"
+                unchecked
+              />
+              <label for="sms_tracking"
+                >Suivi de livraison par sms (inclus)</label
+              >
+
+              <input
+                class="form__input-choice"
+                type="checkbox"
+                id="refund"
+                name="refund"
+                unchecked
+              />
+              <label for="refund">Satisfait ou remboursé(+2 euros)</label>
+
+              <input
+                class="form__input-choice"
+                type="checkbox"
+                id="guarantee"
+                name="guarantee"
+                unchecked
+              />
+              <label for="guarantee">Garantie 2 ans (+10 euros)</label>
+            </fieldset>
+          </div>
+
+          <div class="content__form-right">
+            <fieldset class="form__input-right" name="address">
+              <legend class="form__input-title">Adresse</legend>
+
+              <label for="street">Rue</label>
+              <input
+                class="adresse"
+                type="text"
+                id="street"
+                name="street"
+                required
+              />
+
+              <label for="postal_code">Code Postal</label>
+              <input
+                input
+                class="adresse"
+                type="text"
+                id="postal_code"
+                name="postal_code"
+                minlength="5"
+                maxlength="5"
+                required
+              />
+
+              <label for="city">Ville</label>
+              <input
+                input
+                class="adresse"
+                type="text"
+                id="city"
+                name="city"
+                required
+              />
+
+              <legend class="form__input-title">
+                Informations complémentaires
+              </legend>
+
+              <label for="more__info">interphone. bätiment, etc.</label>
+              <input
+                input
+                class="adresse"
+                type="textarea"
+                id="more__info"
+                name="more__info"
+              />
+            </fieldset>
+          </div>
+        </div>
+
+        <div class="content__total">
+          <span class="content__total-amount"> Montant total à régler </span>
+
+          <span class="content__total-euro"> 197 € </span>
+        </div>
+
+        <div class="content__button">
+          <button class="content__button-continue"> Continuer vos achats </span>
+          <button class="content__button-pay"> Valider et payer </span>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div id="copyright">
+        <p>oFig - toutes les images sont sous copyright SquareEnix</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+body {
+    max-width: 1400px;
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+}
+
+#container {
+    background-color: #C80000;
+}
+
+#header {
+    text-align: left;
+    color: #ffffff;
+}
+
+.shop {
+    font-size: 70px;
+    padding: 0.2em 0 0.4em 0.2em;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 350;
+}
+
+#maintitle {
+    background-color: #666666;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 100;
+    padding: 0.3em 1em 0.4em 1em;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.content__title {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 1.5rem 1rem 1.5rem 0;
+    width: 50%;
+}
+
+.content__form {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+
+}
+
+.content__form-left {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 17rem; */
+}
+
+.content__form-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input-right {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 1rem 0.5rem 0; */
+}
+
+.adresse {
+    margin : 15px 0 15px 0;
+}
+
+.form__input-left  {
+    padding: 0 0 1rem 0;
+}
+
+.form__input-title {
+    /* margin: 3rem 1rem 0.5rem 0; */
+    padding: 0 0 1.5rem 0;
+}
+
+.form__input-choice {
+    align-items: baseline;
+}
+
+
+.content__total {
+    display :flex;
+    justify-content: center;
+    row-gap: 50px;
+}
+
+.content__total-amount {
+    text-align: center;
+}
+
+.content__total-euro {
+    text-align: center;
+}
+
+.content__button {
+    display :flex;
+    justify-content: center;
+    row-gap: 50px;
+}
+
+.content__button-continue {
+    /* text-align: center; */
+    background-color: #C80000
+}
+
+.content__button-pay {
+    /* text-align: center; */
+}
+
+
+#footer {
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight:lighter;
+    padding: 1em;
+}
